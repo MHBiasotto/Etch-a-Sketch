@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.grid-container {
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#white {
+  background-color: white;
+}
+
+#clear {
+  margin-top: 20px;
+  background-color: #ccc;
+}
