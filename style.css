@@ -22,6 +22,15 @@ button {
   flex-wrap: wrap;
 }
 
+#red,
+#green,
+#blue,
+#white,
+#black {
+  width: 100px;
+  height: 40px;
+}
+
 #red {
   background-color: red;
 }
@@ -36,6 +45,11 @@ button {
 
 #white {
   background-color: white;
+}
+
+#black {
+  background-color: black;
+  color: white;
 }
 
 #clear {
